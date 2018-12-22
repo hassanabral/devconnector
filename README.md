@@ -6,7 +6,7 @@ A social network for developers build on MERN stack. I made this web app while t
 - ```npm run client-install```
 - ```npm run dev```
 
-### keys.js needs to be updated in the config folder:
+### keys.js needs to be created in the config folder:
 ```
 module.exports = {
    mongoURI: 'CHANGE_ME',

@@ -26,6 +26,7 @@ import NotFound from './components/not-found/NotFound';
 import Posts from './components/posts/Posts'
 
 import './App.css';
+import Post from "./components/post/Post";
 
 // Check for token
 if (localStorage.jwtToken) {
@@ -97,6 +98,13 @@ class App extends Component {
                            exact
                            path="/feed"
                            component={Posts}
+                        />
+                     </Switch>
+                     <Switch>
+                        <PrivateRoute
+                           exact
+                           path="/post/:id"
+                           component={Post}
                         />
                      </Switch>
                      <Route exact path="/not-found" component={NotFound}/>

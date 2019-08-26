@@ -1,5 +1,5 @@
 # Devconnector
-A social network for developers build on MERN stack. I made this web app while taking the course [MERN stack fron to back](https://www.udemy.com/mern-stack-front-to-back). [Visit](https://desolate-lowlands-38543.herokuapp.com)
+A social network for developers build on MERN stack. I made this web app while taking the course [MERN stack front to back](https://www.udemy.com/mern-stack-front-to-back). [Visit](https://desolate-lowlands-38543.herokuapp.com)
 
 ### How to run this locally?
 - ``` npm install ```
